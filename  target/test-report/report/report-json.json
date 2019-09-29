@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13474000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Launch guardian news websiite",
+        "description": "",
+        "id": "as-a-user,-i-want-to-validate-news-article-from-guardian-news-website;launch-guardian-news-websiite",
+        "after": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3300776900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the guardian news website",
+            "match": {
+              "location": "verifyNewsTest.i_navigate_to_the_guardian_news_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7053862800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the news link from the menu",
+            "match": {
+              "location": "verifyNewsTest.i_click_on_the_news_link_from_the_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5709637100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select the headlines news",
+            "match": {
+              "location": "verifyNewsTest.i_select_the_headlines_news()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8330786000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see the news page of that headline",
+            "match": {
+              "location": "verifyNewsTest.i_should_be_able_to_see_the_news_page_of_that_headline()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2329167600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to copy and save to file the headline of the news",
+            "match": {
+              "location": "verifyNewsTest.i_should_be_able_to_copy_and_save_to_file_the_headline_of_the_news()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10958404200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate the headline news retrieved from guardian news with other resources on google",
+        "description": "",
+        "id": "as-a-user,-i-want-to-validate-news-article-from-guardian-news-website;to-validate-the-headline-news-retrieved-from-guardian-news-with-other-resources-on-google",
+        "after": [
+          {
+            "result": {
+              "duration": 103400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1768509000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to google website",
+            "match": {
+              "location": "verifyNewsTest.i_navigate_to_google_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2163080700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search for the headline news from the guardian site",
+            "match": {
+              "location": "verifyNewsTest.i_search_for_the_headline_news_from_the_guardian_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1729703200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see a list of other sources with similar news details",
+            "match": {
+              "location": "verifyNewsTest.i_should_see_a_list_of_other_sources_with_similar_news_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4407432300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am able to confirm that the news article Fake or not",
+            "match": {
+              "location": "verifyNewsTest.i_am_able_to_confirm_that_the_news_article_Fake_or_not()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to validate news article from guardian news website",
+    "description": "on similar resources, so that I can confirm that the news article is not FAKE news",
+    "id": "as-a-user,-i-want-to-validate-news-article-from-guardian-news-website",
+    "keyword": "Feature",
+    "uri": "Features/verifyNews.feature"
+  }
+]
