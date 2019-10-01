@@ -2,6 +2,8 @@ package com.Jpmc.Step_definition;
 
 import com.Jpmc.DriverInstance;
 import com.Jpmc.verifyNewsPage;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -62,12 +64,11 @@ public class verifyNewsTest extends DriverInstance {
         verifyNP.clickGoogleSearchBtn();
     }
 
-    @Then("^I am able to confirm that the news article Fake or not$")
-    public void i_am_able_to_confirm_that_the_news_article_Fake_or_not() throws Throwable {
+
+    @And("^I am able to confirm that the news article is Fake or not$")
+    public void iAmAbleToConfirmThatTheNewsArticleIsFakeOrNot() throws Throwable {
         Assert.assertTrue(verifyNP.isResultCountAtLeast(5));
         System.out.println(verifyNP.isResultCountAtLeast(5));
         driver.close();
     }
-
-
 }
